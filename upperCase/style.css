@@ -1,5 +1,5 @@
 body{
-padding-left: 4vw;
+padding-left: 2vw;
 background-color: #f9f9f9;
 overflow-x: hidden;
 }
@@ -12,13 +12,14 @@ overflow-x: hidden;
 .container{
     display: grid;
     grid-template-columns: 50% 50%;
-    gap: 5vw;
+    gap: 3vw;
 }
 textarea{
     outline: none;
 }
 p{
     margin: 5px 5px;
+    width: 40vw;
 }
 #outH2{
     display: none;
