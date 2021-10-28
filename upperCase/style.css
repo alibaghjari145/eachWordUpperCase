@@ -1,0 +1,36 @@
+body{
+padding-left: 4vw;
+background-color: #f9f9f9;
+overflow-x: hidden;
+}
+.inouts{
+    height: 40vh;
+    display: grid;
+    grid-template-rows: 20% 70% 10%;
+    gap: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5vw;
+}
+textarea{
+    outline: none;
+}
+p{
+    margin: 5px 5px;
+}
+#outH2{
+    display: none;
+}
+button{
+    border: none;
+    outline: none;
+    background-color: rgb(75, 37, 161);
+    color: #f2f2f2;
+    border-radius: 3vh;
+    cursor: pointer;
+}
+h2{
+    color: rgb(35, 13, 85);
+}
